@@ -9,8 +9,8 @@ module.exports = {
 
 module.exports = {
     entry: ['@babel/polyfill', './src/index.jsx'],
-    mode: "development",
-    // mode: "production",
+    // mode: "development",
+    mode: "production",
     output: {
       path: path.resolve(__dirname, 'docs'),
       filename: 'bundle.js'
