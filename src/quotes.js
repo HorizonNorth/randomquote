@@ -84,7 +84,7 @@ export const quotesArray = [
 {"quote":"If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.","author":"Oprah Winfrey"},
 {"quote":"Remember that not getting what you want is sometimes a wonderful stroke of luck.","author":"Dalai Lama"},
 {"quote":"You can’t use up creativity.  The more you use, the more you have.","author":"Maya Angelou"},
-{"quote":"Dream big and dare to fail.","author":"Norman Vaughan"},
+{"quote":"Dream BIG and dare to fail.","author":"Norman Vaughan"},
 {"quote":"Our lives begin to end the day we become silent about things that matter.","author":"Martin Luther King Jr."},
 {"quote":"Do what you can, where you are, with what you have.","author":"Teddy Roosevelt"},
 {"quote":"If you do what you’ve always done, you’ll get what you’ve always gotten.","author":"Tony Robbins"},

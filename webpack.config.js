@@ -1,11 +1,11 @@
 const path = require('path')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-module.exports = {
-  plugins: [
-    new BundleAnalyzerPlugin()
-  ]
-}
+// module.exports = {
+//   plugins: [
+//     new BundleAnalyzerPlugin()
+//   ]
+// }
 
 module.exports = {
     entry: ['@babel/polyfill', './src/index.jsx'],
@@ -15,9 +15,9 @@ module.exports = {
       path: path.resolve(__dirname, 'docs'),
       filename: 'bundle.js'
     },
-    plugins: [
-      new BundleAnalyzerPlugin()
-    ],
+    // plugins: [
+    //   new BundleAnalyzerPlugin()
+    // ],
 
     devServer: {
       static: {
@@ -26,6 +26,12 @@ module.exports = {
       compress: true,
       port: 8000
       },
+
+      performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
 
     module: {
         rules: [
