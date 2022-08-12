@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
 }
 
@@ -31,6 +32,10 @@ body {
   #quote-box {
     width: 96%;
   }
+  :root {
+    position: fixed;
+    /* overflow: hidden; */
+    }
   }
 
 #text {
